@@ -1,51 +1,52 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Table and Media List</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<h2>List of medias</h2>
-	<table>
-		<thead>
-			<th>Roll numbers</th>
-			<th>Names</th>
-		</thead>
+    <table>
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Emily Davis</td>
+            </tr>
+        </tbody>
+    </table>
 
-		<tbody>
-			<tr>
-				<td>15006</td>
-				<td>Abhishek</td>
-			</tr>
-			<tr>
-				<td>15007</td>
-				<td>Abnibv</td>
-			</tr>
-			<tr>
-				<td>15008</td>
-				<td>Adhin</td>
-			</tr>
-		</tbody>
-	</table>
+    <h2>List of medias</h2>
 
-	<ol>
-		<h2>Ordered List Requirements:</h2>
-		<li> <p>Image:</p><img src="https://picsum.photos/id/123/200/300" alt="First image"></li>
-		<li> <p>Video: </p><video  controls height="200px">
-			<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-		</video> </li>
-		<li>
-			<audio controls><p>Audio:</p>
-				<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" >
-			</audio>
-			</li>
-	</ol>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <ol>
+        <li>
+            <img src="https://picsum.photos/id/123/200/300" alt="Sample Image">
+        </li>
+        <li>
+            <video controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+              
+            </video>
+        </li>
+        <li>
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                
+            </audio>
+        </li>
+    </ol>
 </body>
-
 </html>
